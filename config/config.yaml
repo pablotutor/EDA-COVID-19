@@ -1,0 +1,54 @@
+# COVID-19 EDA Configuration File
+
+# Data Configuration
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+  external_data_path: "data/external/"
+  raw_filename: "covid_owid.csv"
+  processed_filename: "covid_owid_processed.csv"
+
+# Analysis Configuration
+analysis:
+  univariate_analysis: true
+  bivariate_analysis: true
+  temporal_analysis: true
+  geographical_analysis: true
+  
+# Data Cleaning Parameters
+cleaning:
+  remove_duplicates: true
+  handle_missing_values: true
+  missing_value_threshold: 0.5
+  remove_outliers: false
+  outlier_method: "iqr"
+
+# Visualization Configuration
+visualization:
+  style: "whitegrid"
+  palette: "husl"
+  dpi: 300
+  figsize: [14, 8]
+  save_figures: true
+  figures_directory: "figures/"
+  figure_format: "png"
+
+# Feature Engineering
+features:
+  create_time_features: true
+  create_rolling_statistics: true
+  rolling_window: 7
+  create_percentage_change: true
+  create_binned_features: true
+
+# Report Configuration
+report:
+  output_format: "markdown"
+  include_summary_statistics: true
+  include_visualizations: true
+  output_path: "reports/eda_report.md"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_file: "eda_analysis.log"
