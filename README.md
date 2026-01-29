@@ -9,9 +9,34 @@ Time span: 2020–2023
 Granularity: Country-level, daily
 
 ## Key Questions
-- How did cases and deaths evolve over time?
-- Are there structural differences between regions?
-- How do vaccinations relate to outcomes?
+In this EDA, we explore the COVID-19 pandemic using data from Our World in Data (OWID). 
+We aim to understand temporal evolution, regional differences, the impact of vaccinations, 
+economic factors, and policy measures.
+
+- **How did cases and deaths evolve over time?**  
+  We analyze how the pandemic developed and detect peaks.
+
+- **Are there structural differences between regions?**  
+  Understand how distinct continents/regions were affected.
+
+- **How do vaccinations relate to outcomes?**  
+  Measure whether vaccination had an immediate effect on cases and deaths.
+
+- **Wealth relationships**  
+  Did richer countries (GDP or other indicators) influence pandemic management?
+
+- **Country clustering**  
+  Identify clusters of countries with similar behaviors during the pandemic.
+
+- **Relative severity**  
+  How severe was COVID in each country relative to population? Not global scores.
+
+- **Spread velocity and peaks**  
+  Identify which countries experienced the fastest spikes in cases or deaths.
+
+- **Stricter containment measures**  
+  Evaluate if control policies (lockdowns, restrictions) were effective.
+
 
 ## Main Insights
 - ...
