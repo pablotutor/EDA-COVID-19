@@ -16,26 +16,26 @@ economic factors, and policy measures.
 - **How did cases and deaths evolve over time?**  
   We analyze how the pandemic developed and detect peaks.
 
-- **Are there structural differences between regions?**  
-  Understand how distinct continents/regions were affected.
+- **Stricter containment measures**  
+  Evaluate if control policies (lockdowns, restrictions) were effective.
 
 - **How do vaccinations relate to outcomes?**  
   Measure whether vaccination had an immediate effect on cases and deaths.
 
+- **Are there structural differences between regions?**  
+  Understand how distinct continents/regions were affected.
+
 - **Wealth relationships**  
-  Did richer countries (GDP or other indicators) influence pandemic management?
-
-- **Country clustering**  
-  Identify clusters of countries with similar behaviors during the pandemic.
-
+  Did richer countries (GDP or other indicators) influence pandemic management.
+  
 - **Relative severity**  
   How severe was COVID in each country relative to population? Not global scores.
 
 - **Spread velocity and peaks**  
   Identify which countries experienced the fastest spikes in cases or deaths.
 
-- **Stricter containment measures**  
-  Evaluate if control policies (lockdowns, restrictions) were effective.
+- **Country clustering**  
+  Identify clusters of countries with similar behaviors during the pandemic.
 
 
 ## Main Insights

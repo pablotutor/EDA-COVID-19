@@ -72,3 +72,18 @@ def get_basic_info(df: pd.DataFrame) -> dict:
         "duplicate_rows": df.duplicated().sum(),
     }
     return info
+
+
+def change_dtypes(df):
+    
+    """
+    Changes the string columns into categories
+
+    Returns:
+        pd.DataFrame: dataframe with correct dtypes
+    """
+    categorical_cols = df.select_dtypes(include=["object", "category"]).columns.tolist()
+    for col in categorical_cols:
+        df[col] = df[col].astype("category")
+        
+    return df
