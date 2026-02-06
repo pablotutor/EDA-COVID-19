@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def set_style(style: str = "whitegrid", palette: str = "husl") -> None:
+def set_style(style: str = "whitegrid", palette: str = "Blues_d") -> None:
     """
     Set the style for matplotlib and seaborn plots.
     
