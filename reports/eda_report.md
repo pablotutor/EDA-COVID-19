@@ -87,9 +87,10 @@ Using Unsupervised Machine Learning (K-Means), we moved beyond geography to iden
     * *Youngest Population + Low Mortality.* Natural biological resilience due to extreme youth.
 
 ![Clusters](../figures/maps/clusters.png)
+
 *Fig 7. Structural Clustering: Countries with similar behaviors.*
 
-> 🗺️ **Interactive Experience:** [Click here to open the Interactive Map](../figures/maps/interactive_cluster_map.html) covering all countries and metrics.
+> 🗺️ **Interactive Experience:** [Click here to open the Interactive Map](https://pablotutor.github.io/EDA-COVID-19/figures/maps/interactive_cluster_map.html) covering all countries and metrics.
 
 ---
 
