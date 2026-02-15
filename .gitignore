@@ -127,9 +127,6 @@ data/raw/
 data/processed/
 data/external/
 
-# Figures
-figures/
-
 # IDE
 .vscode/
 .idea/
