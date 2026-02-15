@@ -63,7 +63,7 @@ covid-owid-eda/
 │   ├── 04_bivariate_analysis.ipynb
 │   ├── 05_temporal_analysis.ipynb
 │   ├── 06_geographical_analysis.ipynb
-│   └── 07_insights_summary.ipynb
+│   └── 07_country_clustering.ipynb
 │
 ├── src/
 │   ├── __init__.py
