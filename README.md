@@ -39,7 +39,8 @@ economic factors, and policy measures.
 
 
 ## Main Insights
-- ...
+
+> 🚀 **Want to see the full story?** > Check out the detailed **[Exploratory Data Analysis Report](./reports/eda_report.md)** with all charts and deep-dive conclusions.
 
 
 ## Structure of the project
